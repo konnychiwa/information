@@ -1,0 +1,34 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    background-color: hsl(0, 0%, 85%);
+}
+
+a {
+    text-decoration: none;
+    color: #06e;
+}
+
+a:visited {
+    color: #06e;
+}
+
+a:hover {
+    color: #06e;
+    text-decoration: underline;
+}
+
+#list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#list li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+#list li:last-child {
+    border-bottom: none;
+}

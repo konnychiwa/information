@@ -4,6 +4,10 @@ body {
     background-color: hsl(0, 0%, 85%);
 }
 
+h1 {
+    padding: 10px;
+}
+
 a {
     text-decoration: none;
     color: #06e;
@@ -31,4 +35,21 @@ a:hover {
 
 #list li:last-child {
     border-bottom: none;
+}
+
+#button {
+    background-color: #06e;
+    height: 100px;
+    width: 200px;
+    font-size: 1.5em;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#button:hover {
+    background-color: rgb(13, 0, 196);
 }

@@ -39,7 +39,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://counter-pak.netlify.app)
+[![Hacker News Website][product-screenshot]](https://hackernews-pak.netlify.app/)
 
 As soos as the user enter the website, the 10 latest news will appear, going down the page, there will be a button that allow to load 10 more, and so on.
 
@@ -75,7 +75,7 @@ Pamoda Angelo Konara - angelokonara04@gmail.com
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/pamoda-angelo-konara
-[product-screenshot]: img/github.png
+[product-screenshot]: assets/img/github.png
 [HTML5]: https://img.shields.io/badge/HTML-e34c26?style=flat&logo=html5&logoColor=white
 [Css]: https://img.shields.io/badge/CSS-563d7c?&style=flat&logo=css3&logoColor=white
 [JavaScript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black

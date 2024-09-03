@@ -39,7 +39,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://counter-pak.netlify.app)
+[![Hacker News Website][product-screenshot]](https://hackernews-pak.netlify.app/)
 
 As soos as the user enter the website, the 10 latest news will appear, going down the page, there will be a button that allow to load 10 more, and so on.
 

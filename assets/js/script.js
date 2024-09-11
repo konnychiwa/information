@@ -1,7 +1,11 @@
 const list = document.getElementById('list')
 const button = document.getElementById('button')
+let lastLoadedIndex = 10
 
 const fetchItems = (start, end) => {
+    if (start === lastLoadedIndex) return
+    lastLoadedIndex = start
+
     fetch('https://hacker-news.firebaseio.com/v0/newstories.json')
     .then(response => response.json())
     .then(data => {
@@ -24,4 +28,4 @@ const fetchItems = (start, end) => {
 
 fetchItems(0, 10);
 
-button.addEventListener('click', () => fetchItems(10, 20));
+button.addEventListener('click', () => fetchItems(lastLoadedIndex + 10, lastLoadedIndex + 20));

@@ -2,9 +2,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
     background-color: hsl(0, 0%, 85%);
-}
-
-h1 {
     padding: 10px;
 }
 
@@ -30,7 +27,6 @@ a:hover {
 
 #list li {
     border-bottom: 1px solid #ccc;
-    padding: 10px;
 }
 
 #list li:last-child {
@@ -43,7 +39,7 @@ a:hover {
     width: 200px;
     font-size: 1.5em;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;

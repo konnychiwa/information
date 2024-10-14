@@ -1,4 +1,4 @@
-import './style/style.css'
+import './styles/main.css'
 
 const list = document.getElementById('list')
 const button = document.getElementById('button')

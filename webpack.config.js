@@ -3,21 +3,18 @@ const path = require('path');
 module.exports = {
     mode: 'development',
     entry: {
-        bundle: path.resolve(__dirname, 'src', 'index.js'),
+        bundle: path.resolve(__dirname, 'src/index.js'),
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js'
+        filename: '[name].js',
     },
     module: {
         rules: [
             {
                 test: /\.css$/,
-                use: [
-                    'style-loader',
-                    'css-loader'
-                ]
+                use: ['style-loader', 'css-loader'],
             }
         ]
-    }
+    },
 }

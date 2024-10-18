@@ -58,7 +58,7 @@ As soos as the user enter the website, the 10 latest news will appear, going dow
 
 <!-- GETTING STARTED -->
 ## Getting Started
-To use the website click here: https://hackernews-pak.netlify.app/
+To use the website click here: https://information-pak.netlify.app/
 
 
 
